@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "name": "node_back",
+  "name": "wedding_server",
   "version": "1.0.0",
   "description": "",
   "private": true,

@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "description": "",
+  "main": "wedding_server/index.js",
   "workspaces": [
-    "node_back",
-    "react_front"
+    "wedding_server",
+    "wedding_client"
   ],
   "scripts": {
+    "start-server": "node --experimental-modules wedding_server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
