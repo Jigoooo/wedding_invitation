@@ -1,0 +1,11 @@
+.wedding-card {
+    width: 375px;
+    min-height: 100vh;
+    height: auto;
+    padding: 20px 20px 0;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+    background-color: white;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+}
