@@ -1,11 +1,32 @@
 .wedding-card {
-    width: 375px;
+    width: 450px;
     min-height: 100vh;
     height: auto;
-    padding: 20px 20px 0;
+    padding: 40px 20px 40px;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
-    background-color: white;
+    background-color: #f6f6f6;
     text-align: center;
     position: relative;
     box-sizing: border-box;
+}
+
+.wedding-card__header {
+    margin-bottom: 160px;
+}
+
+.wedding-card__header-h1 {
+    font-size: 24px;
+}
+
+.wedding-card__header-h2 {
+    font-size: 20px;
+    color: #666;
+}
+
+.wedding-card__section {
+    margin-top: 100px;
+}
+
+.wedding-card__footer {
+    margin-top: 120px;
 }

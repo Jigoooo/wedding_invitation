@@ -1,0 +1,64 @@
+.calendar-container {
+    width: 100%;
+    margin: auto;
+    font-family: 'Noto Sans', sans-serif;
+    color: #333;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Adds rounded corners to the calendar */
+}
+
+.calendar-header {
+    text-align: center;
+    padding: 20px;
+}
+
+.calendar-header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.calendar-header p {
+    margin: 0;
+    color: #888;
+    font-size: 14px;
+}
+
+.calendar-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.calendar-table th {
+    padding: 10px;
+    color: #e51c23; /* The color for the day headings (e.g., Sun, Mon) */
+    font-weight: normal;
+}
+
+.calendar-table td {
+    text-align: center;
+    padding: 10px;
+}
+
+.calendar-table .today {
+    background-color: #f0f0f0; /* Highlights today's date */
+    border-radius: 50%; /* Makes the highlight circular */
+}
+
+.calendar-footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #e51c23; /* The text color for the footer */
+}
+
+/* Removes the grid lines */
+.calendar-table th,
+.calendar-table td {
+    border: none;
+}
+
+/* Styles for days that are not part of the current month */
+.calendar-table .other-month {
+    color: #ccc;
+}

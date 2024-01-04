@@ -4,6 +4,7 @@
   "private": true,
   "description": "",
   "main": "wedding_server/index.js",
+  "type": "module",
   "workspaces": [
     "wedding_server",
     "wedding_client"
@@ -15,17 +16,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "date-fns": "^3.0.0"
+    "date-fns": "^3.0.6"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.4.0",
-    "@typescript-eslint/parser": "^6.14.0",
-    "eslint": "^8.0.1",
+    "@typescript-eslint/eslint-plugin": "^6.17.0",
+    "@typescript-eslint/parser": "^6.17.0",
+    "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
-    "eslint-plugin-prettier": "^5.0.1",
-    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.1",
+    "eslint-plugin-prettier": "^5.1.2",
+    "eslint-plugin-promise": "^6.1.1",
     "prettier": "^3.1.1",
     "typescript": "*"
   }

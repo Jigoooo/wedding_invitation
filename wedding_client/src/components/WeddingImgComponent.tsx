@@ -16,7 +16,8 @@ function WeddingImgComponent({
   };
 
   return (
-    <div style={{ backgroundColor: '#F0F0F0' }}>
+    // <div style={{ backgroundColor: '#F0F0F0' }}>
+    <div>
       <img style={style} src={src} alt='' onError={handleError} />
     </div>
   );

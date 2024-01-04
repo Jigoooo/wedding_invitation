@@ -2,3 +2,4 @@
 /.idea/
 /wedding_client/node_modules/
 yarn.lock
+/wedding_client/build/
